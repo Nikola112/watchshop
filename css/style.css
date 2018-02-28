@@ -1,0 +1,70 @@
+* {
+  font-family: 'Playfair Display', serif; }
+
+.top-nav-link {
+  font-size: 0.875rem;
+  color: #f3f3f3;
+  text-decoration: none;
+  transition: text-shadow 0.3s; }
+
+.top-nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px #cfcfcf; }
+
+#main-header {
+  background-color: #1e9296; }
+
+.navbar-toggler {
+  border: 0px none; }
+
+.navbar-toggler .icon-bar {
+  background-color: #fffc; }
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 25px;
+  height: 4px; }
+
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 6px; }
+
+.navbar-toggler .icon-bar:nth-child(2) {
+  width: 25px; }
+
+.navbar-toggler.collapsed .icon-bar:nth-child(2) {
+  width: 20px;
+  transition: width 0.3s; }
+
+.nav-item {
+  font-size: 1.125rem;
+  transition: background-color 0.3s; }
+
+.nav-item:hover {
+  background-color: #199ba0; }
+
+.logo {
+  height: 100px; }
+
+.logo-sm-xs {
+  height: 48px; }
+
+#search {
+  width: 50%; }
+
+.shopping-cart-icon {
+  font-size: 36px;
+  color: #1e9296;
+  transition: color 0.3s; }
+
+.shopping-cart-icon:hover {
+  color: #1eb838;
+  cursor: pointer; }
+
+@media (max-width: 767.98px) {
+  #main-header {
+    position: fixed;
+    top: 0px;
+    left: 0px; } }
+
+/*# sourceMappingURL=style.css.map */
