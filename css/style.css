@@ -47,7 +47,8 @@
   height: 100px; }
 
 .logo-sm-xs {
-  height: 48px; }
+  height: 48px;
+  filter: invert(100%); }
 
 #search {
   width: 50%; }
